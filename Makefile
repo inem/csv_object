@@ -12,6 +12,12 @@ push:
 
 all: test build push cleanup
 
+release:
+	# TODO
+	# make all
+	# + create tag
+	# + git push
+
 cleanup:
 	rm *.gem
 

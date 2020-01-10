@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["nemytchenko@gmail.com"]
 
   spec.summary       = %q{Wrapper around Ruby's CSV for more convenience}
-  # spec.description   = %q{Wrapper around Ruby's CSV for more convenience}
+  spec.description   = %q{Ever found yourself trying to find the right way to use Ruby's CSV library? Confused about all those CSV.parse and CSV.open, and when to use each of them? The purpose of CsvObject gem is to create convenient interface to work with CSV files and data in Ruby. Whatever you have: string with filename, CSV data itself, Pathname, CSV::Table, array of hashes, or even Paperclip::Attachment, just throw it into CsvObject.new(your_stuff)}
   spec.homepage      = "https://github.com/inem/csv_object"
   spec.license       = "MIT"
 
